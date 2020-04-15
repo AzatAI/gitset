@@ -35,3 +35,17 @@ AAAAAAA                   AAAAAAAzzzzzzzzzzzzzzzzz  aaaaaaaaaa  aaaa         ttt
                                                                                                                                     
                                                                                                                                                                                                           
 """
+from setuptools import setup
+
+setup(
+    name='gitset',
+    version='0.1',
+    py_modules=['gitset'],
+    install_requires=[
+        'Click',
+    ],
+    entry_points='''
+        [console_scripts]
+        gitset=gitset:cli
+    ''',
+)

@@ -35,3 +35,9 @@ AAAAAAA                   AAAAAAAzzzzzzzzzzzzzzzzz  aaaaaaaaaa  aaaa         ttt
                                                                                                                                                                                                           
 """
 import click
+
+def cli():
+    """Example script."""
+    click.echo('Hello World!')
+
+    
