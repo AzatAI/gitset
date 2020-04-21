@@ -6,7 +6,9 @@ settings.json
 .vscode
 # C extensions
 *.so
-
+venv/
+.idea/
+.idea
 # Distribution / packaging
 .Python
 build/
