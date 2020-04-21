@@ -17,6 +17,10 @@ def error(msg):
     return click.secho(msg, fg='red')
 
 
+def warning(msg):
+    return click.secho(msg, fg='yellow')
+
+
 def info(msg):
     return click.secho(msg, fg='blue')
 
@@ -58,8 +62,8 @@ def copy_and_show_ssh(operating_system):
         'contents below manually:')
     os.system('clear')
     os.system('cat ~/.ssh/id_rsa.pub')
-    click.echo(
-        'Now open github.com and your github settings, paste the copied content(or contents above) to the new SSH key!')
+    warning('Now open github.com and your github settings, paste the copied content(or contents above) to the new SSH '
+            'key!')
 
 
 def ssh_configure(operating_system):

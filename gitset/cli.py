@@ -16,7 +16,6 @@ def cli():
     git_configure()
     success('Git configuring globally succeed!')
     ssh_configure(working_os)
-    success('SSH Configured!')
 
 
 if __name__ == '__main__':

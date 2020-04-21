@@ -11,7 +11,7 @@
 __title__ = "gitset"
 __description__ = "AzatAI Automation Tool : Github Configure"
 __url__ = "https://github.com/AzatAI/gitset"
-__version__ = "1.0.2"
+__version__ = "1.0.3"
 __author__ = "Yaakov Azat"
 __author_email__ = "yaakovazat@gmail.com"
 __license__ = "MIT"
